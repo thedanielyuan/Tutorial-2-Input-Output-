@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main() 
+{
+    char a, b, c, d;
+
+    printf("Enter 4 initials: ");
+    scanf(" %c %c %c %c", &a, &b, &c, &d);
+
+    printf("Your initials are %c.%c.%c,%c\n", a, b, c, d);
+
+    return 0;
+
+}  
